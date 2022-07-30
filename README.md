@@ -1,17 +1,4 @@
-# New tab page container
-Hi there!
+# New Tab Page Container (Lite)
+A stripped-down version of KazuAlex's more advanced [New Tab Page Container](https://addons.mozilla.org/firefox/addon/new-tab-page-container/) add-on for Firefox.
 
-This is the repository for ***New tab page container*** extension for Firefox.
-
-This extension show you all your containers on new tab page. You can also edit them.
-This extension recommended: [Firefox Multi-Account Containers](https://addons.mozilla.org/firefox/addon/multi-account-containers/)
-
-## Download add-on
-[Firefox Add-ons page](https://addons.mozilla.org/firefox/addon/new-tab-page-container/)
-
-## Next steps
-- [x] Show contextual identities
-- [x] Edit contextual identities
-- [x] Create contextual identity
-- [x] Delete contextual identity
-- [ ] Open new tab in default identity
+You will need to enable [Multi-Account Containers](https://addons.mozilla.org/firefox/addon/multi-account-containers/) to use this add-on.

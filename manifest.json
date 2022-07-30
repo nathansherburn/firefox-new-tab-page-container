@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "name": "New Tab Page Identities",
-  "version": "2.0.1",
+  "name": "New Tab Page Identities (Lite)",
+  "version": "1.0.0",
 
   "description": "Show contextual identities on new tab page",
 
@@ -14,7 +14,7 @@
   },
 
   "browser_action": {
-    "default_title": "New Tab Page Identities",
+    "default_title": "New Tab Page Identities (Lite)",
     "default_icon": "/icons/new-tab.svg",
     "theme_icons": [
       {
@@ -45,11 +45,7 @@
     ]
   },
 
-  "permissions": [
-    "contextualIdentities",
-    "cookies",
-    "tabs"
-  ],
+  "permissions": ["contextualIdentities", "cookies", "tabs"],
 
   "browser_specific_settings": {
     "gecko": {
@@ -57,11 +53,11 @@
     }
   },
 
-  "chrome_url_overrides" : {
+  "chrome_url_overrides": {
     "newtab": "new-tab-page.html"
   },
 
   "background": {
-    "scripts": [ "background.js" ]
+    "scripts": ["background.js"]
   }
 }
